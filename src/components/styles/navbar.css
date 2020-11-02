@@ -1,0 +1,8 @@
+#login{
+    border: 1px solid rgb(58, 120, 255);
+    transition: 1s,
+}
+
+#login:hover{
+    background: rgb(58, 120, 255);
+}

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+#homepage{
+    background-image: linear-gradient(
+    10deg,
+    rgb(223, 230, 235) 35%,
+    rgb(231, 242, 248) 35%
+  );
+  overflow: hidden;
+}
+
+#home {
+  background: linear-gradient(
+      to bottom,
+      rgba(245, 246, 252, 0.52),
+      #0e2857ba
+    ), url("../../images/slide2.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 80vh;
+  margin-top: 80px;
+}
+
+#content{
+    position: relative; 
+    top: 40%;
+    width: 700px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+#services li{
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    list-style-type: square;
+}
+
+#hire {
+  width: 65%;
+  margin: 50px auto 70px;
+}
+
+#hire h3 {
+  color: rgb(2, 2, 175);
+  margin: 0 0 10px;
+}
+
+#hire h6 {
+  margin-bottom: 40px;
+  color: rgb(51, 50, 50);
+}
+
+.card {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  margin-bottom: 30px;
+  border-radius: 2px;
+}
+
+.card:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.card p {
+  padding: 30px 0;
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+@media only screen and (max-width: 867px) {
+  #hire {
+    width: 80%;
+  }
+}
+
+
+@media only screen and (max-width: 767px){
+    #one{
+        margin-bottom: 50px;
+    }
+
+    #header{
+        text-align: center;
+    }
+}

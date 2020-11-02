@@ -1,0 +1,41 @@
+#team{
+    width: 70%; 
+    margin: 0 auto;
+}
+
+#team h2{
+    margin-bottom: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(14, 14, 140);
+}
+
+.img-container {
+  width: 100%;
+  overflow: hidden;
+  height: 400px;
+}
+
+.img-container img {
+  width: 100%;
+  height: 100%;
+  /* border: 2px solid rgb(4, 55, 100); */
+  transition: transform 0.5s ease;
+  cursor: pointer;
+}
+
+figcaption{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.img-container:hover img{
+  transform: scale(1.1);
+}
+
+@media only screen and (max-width: 575px){
+   #team{
+       display: none;
+   }
+
+}

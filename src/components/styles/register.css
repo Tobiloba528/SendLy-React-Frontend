@@ -1,0 +1,9 @@
+#register-form{
+    padding: 120px 0 90px;
+}
+
+#inner-register{
+    width: 650px;
+    max-width: 80%;
+    margin: 0 auto;
+}
